@@ -15,6 +15,6 @@ class GreeterTest {
 
     @Test
     void ShouldCapitalizeFirstLetter() {
-        assertEquals("Hello Bob", new Greeter().greet("Bob"));
+        assertEquals("Hello Bob", new Greeter().greet("bob"));
     }
 }
