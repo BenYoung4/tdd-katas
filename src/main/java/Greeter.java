@@ -1,2 +1,9 @@
-package PACKAGE_NAME;public class Greeter {
+
+
+
+class Greeter {
+    public Object greet(String name) {
+        return "Hello " + name;
+    }
+
 }
